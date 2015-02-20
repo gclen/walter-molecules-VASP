@@ -1,0 +1,24 @@
+SYSTEM = geometry relaxation 
+NWRITE = 3  
+
+ISTART = 0   # 0=new, 1=wave, 2=same cutoff&latt (1&2 need WAVECAR file)
+ICHARG = 2   # 0=charge from wave, 1=charge from CHGCAR, 2=atom superpos.
+
+PREC=Med
+PRECFOCK= N
+
+LPAR = .TRUE.
+
+IALGO = 48
+LREAL = A  
+NELMIN = 4   
+BMIX = 2.0  
+MAXMIX = 50   
+
+ISIF   = 2  # (2:force=y stress=y ions=y shape=n volume=n)
+
+IBRION = 2
+NSW = 1000
+POTIM = 0.1
+
+
